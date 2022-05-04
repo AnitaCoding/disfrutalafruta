@@ -1,0 +1,31 @@
+ion-card{
+    box-shadow: 0px 4px 10px 0 rgba(145, 64, 145, 0.4);
+    border-radius: 10px;
+  }
+
+  
+.info-box{
+  box-shadow: none;
+}
+  
+  .title{
+    font-size: 1.2rem;
+  }
+  
+  .ng-fa-icon{
+    padding-right: 1rem;
+  }
+  
+  .card-text{
+    display:flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .item-name{
+    font-size: 1rem;
+  }
+  
+  .district-text{
+    font-size: 0.8rem;
+  }

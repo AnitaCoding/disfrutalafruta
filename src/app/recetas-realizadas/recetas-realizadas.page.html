@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="menu">    
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="backLink" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title">{{tipoBebida}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--Se muestran las recetas realizadas. Primero se consulta la longitud del array, entendiendo que si es distinto de cero, 
+existen recetas realizadas. Con la directiva ngFor, consultamos cada item del array para ir dibujando cada card con los valores de las 
+propiedades de ese item.-->
+<ion-content  *ngIf="lista_aux.length != 0">
+  <ion-card *ngFor="let item of lista_aux" [routerLink]="['/receta']" (click)="comunicarDatos(item.nombre)">
+    <ion-item href="#" class="ion-activated" color="primary">
+      <div class="card-text">
+        <ion-label class="item-name">{{item.nombre}}</ion-label>
+        <p class="district-text">{{item.nombreTipoBebida}}</p>
+      </div>
+    </ion-item>
+  </ion-card>
+</ion-content>
+
+<!--SI NO HA REALIZADO NINGUNA-->
+
+<ion-content *ngIf="lista_aux.length == 0">
+  <ion-card class="info-box" color="primary">
+    <ion-card-header>
+      <ion-card-title>No has hecho ninguno todavía</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      ¿A qué esperas? ¡Ponte manos a la obra!
+    </ion-card-content>
+  </ion-card> 
+
+</ion-content>

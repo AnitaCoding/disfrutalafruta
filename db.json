@@ -1,0 +1,77 @@
+{"recetas": [
+      {
+        "nombre":"Zumo de papaya y piña",
+        "ingredientes": ["papaya", "pina"],
+        "tipoBebida":"zumo",
+        "nombreTipoBebida":"Zumo",
+        "listaIngredientes": ["2 rodajas de piña natural", "1/4 de papaya", "Unas gotas de azúcar líquida", "1/2 litro de agua fría"],
+        "instrucciones": ["Trocea las piezas de fruta.", "Tritúralas en la batidora durante un minuto a velocidad progresiva.", "Incorpora el agua y el azúcar, y bate durante 20 segundos más.", "Pruébalo, si resulta poco consistente, bátelo más."] },
+      {
+        "nombre":"Zumo de sandía y manzana",
+        "ingredientes": ["sandia", "manzana"],
+        "tipoBebida":"zumo",
+        "nombreTipoBebida":"Zumo",
+        "listaIngredientes": ["Unas rodajas de sandía","1 manzana"],
+        "instrucciones": ["Trocea las piezas de fruta.", "Pasar los pedazos por la licuadora, colar, y reservar en la nevera.", "Servir frío."] },
+      {
+        "nombre":"Zumo de fresa, plátano y manzana",
+        "ingredientes": ["fresa", "platano", "manzana"],
+        "tipoBebida":"zumo",
+        "nombreTipoBebida":"Zumo",
+        "listaIngredientes": ["8 fresas","1 plátano", "1 manzana"],
+        "instrucciones": ["Pelar y trocear la manzana y el plátano.", "Lavar las fresas, quitar las hojas, y partir en dos.", "Pasar por la batidora y reservar en la nevera.", "Servir frío."] },
+      {
+        "nombre":"Zumo de mango, kiwi y piña",
+        "ingredientes": ["mango", "kiwi", "pina"],
+        "tipoBebida":"zumo",
+        "nombreTipoBebida":"Zumo",
+        "listaIngredientes": ["1 mango","1 kiwi", "4 rodajas de piña"],
+        "instrucciones": ["Pelar el mango y el kiwi.", "Trocear todas las piezas de fruta.", "Pasar por la batidora y colar."] },
+      {
+        "nombre":"Batido de melón, sandía y mango",
+        "ingredientes": ["melon", "sandia", "mango"],
+        "tipoBebida":"batido",
+        "nombreTipoBebida":"Batido",
+        "listaIngredientes": ["1/2 melón","1/2 sandía", "2 mangos", "2 yogures naturales"],
+        "instrucciones": ["Lavar, secar y trocear el mango.", "Pelar, quitar semillas y trocear el melón.", "Pelar y trocear la sandía.", "Triturar la fruta junto al yogur en la batidora y colar.", "Servir frío." ]},
+      {
+        "nombre":"Batido de mango, papaya, plátano y fresa",
+        "ingredientes": ["mango", "papaya", "platano", "fresa"],
+        "tipoBebida":"batido",
+        "nombreTipoBebida":"Batido",
+        "listaIngredientes": ["1 plátano pequeño","2 mangos", "8 fresas", "130 gramos de papaya", "3 puñados de hielo picado", "200ml de leche desnatada", "1 par de gotitas de vainilla", "1 cucharada de avena"],
+        "instrucciones": ["Triturar todas las frutas en la batidora.", "Añadir la leche, la avena, las 2 gotas de vainilla y el hielo picado, y remover.", "Servir." ]},
+      {
+        "nombre":"Batido de cereza y plátano",
+        "ingredientes": ["cereza", "platano"],
+        "tipoBebida":"batido",
+        "nombreTipoBebida":"Batido",
+        "listaIngredientes": ["6 cerezas deshuesadas","1 plátano congelado"],
+        "instrucciones": ["Lavar las cerezas.", "Licuarlas en la batidora junto al plátano hasta que quede homogéneo.", "Se puede añadir agua o leche para quitarle espesor." ]},
+      {
+        "nombre":"Batido fresa y plátano",
+        "ingredientes": ["fresa", "platano"],
+        "tipoBebida":"batido",
+        "nombreTipoBebida":"Batido",
+        "listaIngredientes": ["250 gr de fresas","1 plátano", "8 fresas", "1 vaso de leche", "2 cucharadas de azúcar"],
+        "instrucciones": ["Limpiar las fresas.", "Trocear todas las piezas de fruta.", "Licuar junto a la leche y el azúcar.", "Servir muy frío." ]},
+      {
+        "nombre":"Daiquiri de melocotón",
+        "ingredientes": ["melocoton", "limon"],
+        "tipoBebida":"coctel",
+        "nombreTipoBebida":"Cóctel",
+        "listaIngredientes": ["150ml de ron blanco","80ml de licor de melocotón", "4 melocotones", "40mg de azúcar", "El zumo de un limón", "14 cubitos de hielo"],
+        "instrucciones": ["Lavar, pelar y cortar los melocotones.", "Triturar los melocotones junto al zumo de limón en una batidora.", "Mezclar con el resto de ingredientes hasta que quede bien granizado." ]},
+    {
+        "nombre":"Hawaii azul",
+        "ingredientes": ["limon", "pina"],
+        "tipoBebida":"coctel",
+        "nombreTipoBebida":"Cóctel",
+        "listaIngredientes": ["60ml de vodka","30ml de curaçao azul", "60ml de zumo de piña", "2 limones", "2 limas", "8 cucharadas pequeñas de azúcar"],
+        "instrucciones": ["Exprimir las limas y los limones.", "Añadir el azúcar y rellenar el vaso con agua.", "Remover hasta que se deshaga el azúcar.", "Añadir el vodka y el curaçao, y agitar en una coctelera durante 15 segundos." ]}
+    
+
+    
+               
+    ]
+  }

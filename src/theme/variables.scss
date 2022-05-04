@@ -1,0 +1,36 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Ionic CSS Variables **/
+:root {
+  /** primary **/
+  --ion-color-primary: #ffffff;
+  --ion-color-primary-rgb: 255, 255, 255;
+  --ion-color-primary-contrast: #512451;
+  --ion-color-primary-contrast-rgb: 81, 36, 81;
+  --ion-color-primary-shade: #ffffff;
+  --ion-color-primary-tint: #ffffff;
+
+  /** menu**/ 
+  --ion-color-menu: #914091;
+  --ion-color-menu-rgb: 145, 64, 145;
+  --ion-color-menu-contrast: #ffffff;
+  --ion-color-menu-contrast-rgb: 255, 255, 255;
+  --ion-color-menu-shade: #ffffff;
+  --ion-color-menu-tint: #ffffff;
+
+  
+  /*Tipografía global*/
+  --ion-font-family: 'Gill Sans';
+}
+
+.ion-color-menu{
+  --ion-color-base: var(--ion-color-menu);
+  --ion-color-base-rgb: var(--ion-color-menu-rgb);
+  --ion-color-contrast: var(--ion-color-menu-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-menu-contrast-rgb);
+  --ion-color-shade: var(--ion-color-menu-shade);
+  --ion-color-tint: var(--ion-color-menu-tint);
+}
+
+

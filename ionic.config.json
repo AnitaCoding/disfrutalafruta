@@ -1,0 +1,7 @@
+{
+  "name": "disfrutalafruta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

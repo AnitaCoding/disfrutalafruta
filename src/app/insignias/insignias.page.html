@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar color="menu">
+    <ion-title class="title">Insignias</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!--Se crea un contenedor para cada insignia en el que incluimos el título vigente y el avance en la insignia en su elemento canvas. Cada
+  canvas tiene un identificador, para llamarlo desde el componente, el cual, es el padre-->
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{zumosInsignia.tituloActual}}</p>
+      <canvas #zumosCanvas></canvas>
+    </div>
+
+    <div class="chart-container">
+      <p>{{batidosInsignia.tituloActual}}</p>
+      <canvas #batidosCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{coctelesInsignia.tituloActual}}</p>
+      <canvas #coctelesCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{pinaInsignia.tituloActual}}</p>
+      <canvas #pinaCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{manzanaInsignia.tituloActual}}</p>
+      <canvas #manzanaCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{fresaInsignia.tituloActual}}</p>
+      <canvas #fresaCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{mangoInsignia.tituloActual}}</p>
+      <canvas #mangoCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{papayaInsignia.tituloActual}}</p>
+      <canvas #papayaCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{cerezaInsignia.tituloActual}}</p>
+      <canvas #cerezaCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{melonInsignia.tituloActual}}</p>
+      <canvas #melonCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{sandiaInsignia.tituloActual}}</p>
+      <canvas #sandiaCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{melocotonInsignia.tituloActual}}</p>
+      <canvas #melocotonCanvas></canvas>
+    </div>
+  </div>
+
+  <div class="container-chart-box">
+    <div class="chart-container">
+      <p>{{limonInsignia.tituloActual}}</p>
+      <canvas #limonCanvas></canvas>
+    </div>
+    <div class="chart-container">
+      <p>{{platanoInsignia.tituloActual}}</p>
+      <canvas #platanoCanvas></canvas>
+    </div>
+  </div>
+
+</ion-content>

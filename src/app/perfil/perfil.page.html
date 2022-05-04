@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="menu">
+    <ion-title class="title">Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--Pantalla de perfil del usuario-->
+<ion-content>
+  <div id="container">
+    <div class="header">
+      <div *ngIf="!edicionNombre" class="box-nombreUsuario">
+          
+        <h1 class="title">{{nombreUsuario}}</h1>
+        <fa-icon icon="pen-to-square" (click)="editarNombre()"></fa-icon>
+
+      </div>
+
+      <div *ngIf="edicionNombre" class="box-nombreUsuario">
+        <ion-input [(ngModel)]="nombreUsuario" placeholder="Introduce tu nombre"></ion-input>
+        <fa-icon icon="check" class="check-icon" (click)="editarNombre()"></fa-icon>
+
+
+      </div>
+
+      <h2 >Resumen de recetas realizadas</h2>
+    </div>   
+    <ion-card class="body-button" [routerLink]="['/recetas-realizadas']" (click)="actualizaTipoBebida('zumo')">
+      <ion-item color="primary" class="ion-activated body-button">
+        <ion-label>Zumos</ion-label>
+      </ion-item>
+    </ion-card>
+  
+    <ion-card class="body-button" [routerLink]="['/recetas-realizadas']" (click)="actualizaTipoBebida('batido')">
+      <ion-item color="primary" href="#" class="ion-activated body-button">
+        <ion-label>Batidos</ion-label>
+      </ion-item>
+    </ion-card>
+  
+    <ion-card class="body-button" [routerLink]="['/recetas-realizadas']" (click)="actualizaTipoBebida('coctel')">
+      <ion-item color="primary" href="#" class="ion-activated body-button">
+        <ion-label>Cócteles</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+
+</ion-content>

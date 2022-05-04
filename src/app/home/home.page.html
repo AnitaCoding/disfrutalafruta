@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="menu">
+    <ion-title class="title">
+      Disfruta la fruta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-header color="menu" collapse="condense">
+    <ion-toolbar >
+      <ion-title size="large">Disfruta la fruta</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+<div id="container">
+
+  <!--Los nombres de las frutas están almacenados en un array de array de string. Cada array de string tiene dos valores: uno en minúsculas y sin
+  acentos para evitar problemas de legibilidad para el programa, y otro ortográficamente correcto.
+  Con la directiva nGfor, accedemos a cada elemento, y pintamos el nombre. -->
+  <ion-card *ngFor="let item of frutas" class="body-button" [routerLink]="['/lista-frutas']" (click)="actualizaNombreFruta(item)">
+    <ion-item color="primary" class="ion-activated body-button">
+      <ion-label class="button-text">{{item[0]}}</ion-label>
+    </ion-item>
+  </ion-card>
+
+</div>
+</ion-content>

@@ -1,0 +1,79 @@
+#container {
+  text-align: center;
+  padding: 0 0.8rem;
+ 
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    color: rgb(81, 36, 81) ;
+}
+
+ion-input{
+  margin-top: 20px;
+  border: 1px solid rgb(145, 64, 145);
+  border-radius: 0.5rem;
+  color: rgb(81, 36, 81);
+}
+
+.check-icon{
+  margin-left: 1rem;
+}
+.header > h2 {
+  margin: 2rem 0 1rem;
+}
+
+.box-nombreUsuario{
+  display: flex;
+  align-items: baseline;
+}
+
+h1{
+    padding-right: 1rem;
+}
+
+.title, .body-button{
+  font-size: 1.2rem;
+  text-transform: none;
+}
+
+.resumen-visitados {
+  display: flex;
+  justify-content: center;
+  padding: 0.7rem;
+ }
+
+ h2{
+     font-size: 1rem;
+ } 
+
+.body-button{
+  padding: 0.4rem;
+  //margin-top: 1rem;
+  --border-style: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+ion-card{
+  box-shadow: 0px 4px 10px 0 rgba(145, 64, 145, 0.4);
+}
+

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="menu">
+    <ion-title class="title">Favoritos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--EXISTE LISTA-->
+<!--Si la longitud del array es distinto de cero, se entiende que existe una lista, y la muestra.
+Con la directiva nGfor, recorre cada item del array y crea un elemento ion-card por cada uno de ellos.
+Muestra el nombre de la receta y el tipo de la bebida (propiedades de cada item) en los elementos que corresponden-->
+<ion-content *ngIf="lista_favoritos.length != 0">
+  <ion-card *ngFor="let item of lista_favoritos" [routerLink]="['/receta']" (click)="comunicarDatos(item.nombre)" >
+    <ion-item href="#" class="ion-activated" color="primary">
+      <div class="card-text">
+        <ion-label class="item-name">{{item.nombre}}</ion-label>
+        <p class="district-text">{{item.nombreTipoBebida}}</p>
+      </div>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
+
+<!--NO EXISTE LISTA-->
+<!--Se entiende que si la longitud del array es igual a 0, no hay ninguna lista almacenada e informa al usuario-->
+<ion-content *ngIf="lista_favoritos.length == 0">
+  <ion-card class="info-box" color="primary">
+    <ion-card-header>
+      <ion-card-title>Aquí no hay nada.</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Puede que hayas hecho todas las recetas que habías guardado, o que no hayas guardado ninguna. Nunca es tarde para volver a empezar.
+    </ion-card-content>
+  </ion-card> 
+
+</ion-content>
